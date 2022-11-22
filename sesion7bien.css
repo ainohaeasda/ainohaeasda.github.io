@@ -1,0 +1,110 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;  
+    text-align:left; 
+    margin:0;
+}
+
+.header {
+    height:60px;
+    text-align: left;
+    background-color:darkslategray;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:10px;
+}
+
+#cajasuperior {
+    width:100vw;
+    height:100vh;
+    background-image:url("./img/1569332790_257144_1569592970_noticia_normal.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-top:55px;
+}
+
+#cajacentro {
+    text-align:center;
+}
+
+h1 {
+    font-size:70px;
+    font-weight:100;
+    width:45vw;
+    margin:auto;
+    font-family:serif;
+    margin-bottom:25px;
+}
+
+h2 {
+    font-size:18px;
+    width:35vw;
+    margin:auto;
+    font-weight:100;
+    color:grey;
+}
+
+.cajaarticulo {  
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align:left;
+    line-height:30px;
+    margin-top:25px;
+    font-size:18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey;
+}
+
+#capitalletter
+{
+   float:left;
+   color:black;
+   font-weight:bolder;
+   background-color:white;
+   font-size:200px;
+   line-height:120px;
+   padding:5px;
+   position:relative;
+   top:20px;
+}
+
+.imagencentral {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+ul {
+    list-style:none;    
+    font-size:40px;
+    font-weight:100;
+    margin-left:150px;
+    padding-top:87.5px;
+    color:white;
+    line-height:80px;
+}
+
+li {
+    padding:4px;
+}
+
+a:link {
+    color:white;
+    text-decoration:none;
+  }
+
+a:visited {
+    color:white;
+  }
+  
+a:hover {
+    color:orange;
+  }
+
