@@ -14,6 +14,16 @@ body {
     font-size:10px;
 }
 
+section {
+    background-color: beige;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
 #cajasuperior {
     width:100vw;
     height:100vh;
@@ -108,3 +118,6 @@ a:hover {
     color:orange;
   }
 
+a:hover img {
+    filter: saturate(1);
+}
