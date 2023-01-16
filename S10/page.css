@@ -27,12 +27,7 @@ content {
     justify-content: center;
 }
 
-img:hover {
-    filter: saturate(100%);
-}
-
 img {
-    filter: saturate(0);
     height: 350px;
     margin:20px;
 }
@@ -43,6 +38,6 @@ h1 {
 }
 
 h2 {
-    font-weight:bold;
-    font-style:ialic;
+    font-weight:lighter;
+    font-family:'Times New Roman', Times, serif;
 }
